@@ -1,0 +1,26 @@
+Developer Documentation
+
+1. Project Structure
+   - client: Rust application for rendering and client-side logic, embeds Python for game objects, serves HTML/JS UI.
+   - server: Rust authoritative server, handles game state and physics, may embed Python for server-side logic.
+   - studio: Rust application for creating and editing game servers (like Roblox Studio).
+   - shared: Shared Rust code between projects.
+
+2. Building the Project
+   Each project (client, server, studio) is built separately with Cargo.
+   Ensure you have Rust, Python, and Node.js (for web assets) installed.
+
+3. Running the Project
+   - Server: cargo run --bin server
+   - Client: cargo run --bin client
+   - Studio: cargo run --bin studio
+
+4. Architecture
+   - The server is authoritative and uses a fixed tick rate.
+   - The client uses Python for game object definitions and logic.
+   - The UI is web-based and communicates with the Rust client via a local web server.
+
+5. Extending the Game
+   - Add new game objects in client/python/.
+   - Modify the network protocol in shared/src/protocol.rs.
+   - Create new UI components in client/web/.
