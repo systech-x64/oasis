@@ -16,6 +16,3 @@ User Guidelines
 4. Troubleshooting
    - If the game doesn't start, check the system requirements.
    - For network issues, ensure your firewall allows the game.
-
-~~5. Community~~
-  ~~ - Join our Discord for help and to share your creations.~~
