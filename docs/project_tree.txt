@@ -1,0 +1,150 @@
+oasis/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── Cargo.toml
+│
+├── shared/  
+│   ├── Cargo.toml
+│   ├── src/
+│   │   ├── lib.rs
+│   │   ├── protocol.rs
+│   │   ├── types.rs
+│   │   ├── constants.rs
+│   │   └── render/
+│   │       ├── mod.rs
+│   │       ├── texture.rs
+│   │       └── shader.rs
+│   └── python/
+│       └── __init__.py
+│
+├── client/
+│   ├── Cargo.toml
+│   ├── src/
+│   │   ├── main.rs
+│   │   ├── renderer/
+│   │   │   ├── mod.rs
+│   │   │   ├── renderer_2d.rs
+│   │   │   ├── renderer_3d.rs
+│   │   │   └── pipeline.rs
+│   │   ├── network/
+│   │   │   ├── mod.rs
+│   │   │   ├── client.rs
+│   │   │   └── cache.rs
+│   │   ├── input/
+│   │   │   ├── mod.rs
+│   │   │   └── handler.rs
+│   │   └── ui/
+│   │       ├── mod.rs
+│   │       └── webview.rs
+│   ├── python/
+│   │   ├── game_objects/
+│   │   │   ├── __init__.py
+│   │   │   ├── player.py
+│   │   │   ├── enemy.py
+│   │   │   └── collectible.py
+│   │   ├── game_logic/
+│   │   │   ├── __init__.py
+│   │   │   ├── level.py
+│   │   │   └── ai.py
+│   │   └── bridge.py
+│   ├── web/
+│   │   ├── index.html
+│   │   ├── game.js
+│   │   ├── ui.js
+│   │   ├── input.js
+│   │   ├── styles.css
+│   │   └── assets/
+│   │       ├── sprites/
+│   │       └── fonts/
+│   └── assets/
+│       ├── shaders/
+│       ├── textures/
+│       └── models/
+│
+├── server/
+│   ├── Cargo.toml
+│   ├── src/
+│   │   ├── main.rs
+│   │   ├── network/
+│   │   │   ├── mod.rs
+│   │   │   ├── server.rs
+│   │   │   ├── session.rs
+│   │   │   └── auth.rs
+│   │   ├── game/
+│   │   │   ├── mod.rs
+│   │   │   ├── world.rs
+│   │   │   ├── physics.rs
+│   │   │   └── entities.rs
+│   │   ├── database/
+│   │   │   ├── mod.rs
+│   │   │   ├── models.rs
+│   │   │   └── connection.rs
+│   │   └── security/
+│   │       ├── mod.rs
+│   │       ├── hwid.rs
+│   │       └── anticheat.rs
+│   ├── python/
+│   │   ├── scripts/
+│   │   │   ├── __init__.py
+│   │   │   ├── game_rules.py
+│   │   │   └── events.py
+│   │   └── plugins/
+│   │       └── __init__.py
+│   └── config/
+│       ├── server.yaml
+│       └── security.yaml
+│
+├── studio/
+│   ├── Cargo.toml
+│   ├── src/
+│   │   ├── main.rs
+│   │   ├── editor/
+│   │   │   ├── mod.rs
+│   │   │   ├── level_editor.rs
+│   │   │   ├── terrain_tool.rs
+│   │   │   └── asset_browser.rs
+│   │   ├── ui/
+│   │   │   ├── mod.rs
+│   │   │   ├── workspace.rs
+│   │   │   ├── properties.rs
+│   │   │   └── preview.rs
+│   │   ├── export/
+│   │   │   ├── mod.rs
+│   │   │   └── server_packager.rs
+│   │   └── render/
+│   │       ├── mod.rs
+│   │       └── viewport.rs
+│   ├── python/
+│   │   ├── tools/
+│   │   │   ├── __init__.py
+│   │   │   ├── script_editor.py
+│   │   │   └── template_generator.py
+│   │   └── templates/
+│   │       ├── basic_game/
+│   │       └── multiplayer_arena/
+│   └── assets/
+│       ├── icons/
+│       └── templates/
+│
+├── docs/
+│   ├── developer_documentation.txt
+│   ├── user_guideline.txt
+│   ├── eula.txt
+│   ├── api/
+│   │   ├── rust/
+│   │   │   ├── client.md
+│   │   │   ├── server.md
+│   │   │   └── studio.md
+│   │   └── python/
+│   │       └── api.md
+│   └── tutorials/
+│       ├── getting_started.md
+│       ├── creating_your_first_game.md
+│       └── publishing_server.md
+│
+└── scripts/
+    ├── build_all.sh
+    ├── run_server.sh
+    ├── package_client.py
+    └── deploy_studio.py
