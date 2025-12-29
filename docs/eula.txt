@@ -1,0 +1,20 @@
+End User License Agreement (EULA) for oasis
+
+1. License Grant
+   We grant you a non-exclusive, non-transferable license to use the software.
+
+2. Restrictions
+   You may not reverse engineer, decompile, or disassemble the software.
+
+3. Content
+   The software allows you to create and join user-generated content.
+   We are not responsible for the content created by users.
+
+4. Termination
+   We may terminate this license if you breach the terms.
+
+5. Disclaimer
+   The software is provided "as is" without warranty of any kind.
+
+6. Limitation of Liability
+   We are not liable for any damages arising from the use of the software.
