@@ -47,4 +47,4 @@ A modern, multi-language platformer game engine with a unique architecture.
    cargo run
    ```
 
--# this was in beta buf expected.
+-# this was in beta bug expected.
