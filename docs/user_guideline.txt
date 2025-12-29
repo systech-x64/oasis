@@ -1,0 +1,21 @@
+User Guidelines
+
+1. Installation
+   - Download the latest release for your operating system.
+   - Run the installer and follow the instructions.
+
+2. Playing the Game
+   - Launch the client and connect to a server.
+   - Use the arrow keys or WASD to move, spacebar to jump.
+   - Interact with the UI using the mouse.
+
+3. Creating a Server
+   - Use the Studio application to create and configure a server.
+   - Publish your server for others to join.
+
+4. Troubleshooting
+   - If the game doesn't start, check the system requirements.
+   - For network issues, ensure your firewall allows the game.
+
+~~5. Community~~
+  ~~ - Join our Discord for help and to share your creations.~~
